@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/6da6705565.js" crossorigin="anonymous"></script>
+   <title>Lorem Ipsum is simply</title>
+</head>
+
+<body>
+   <div class="gr1">
+      <div class="inner">
+         <div class="image">
+            <img class="image__item" src="img/img1.png" alt="bg-image">
+            <div class="heading">
+               <h1 class="title">Lorem Ipsum is simply </h1>
+               <p class="subtitle">Lorem Ipsum is simply </p>
+            </div>
+            <div class="gradient"></div>
+         </div>
+         <div class="form tab-content">
+            <div class="logo_gr1">
+               <a class="logo">your logo</a>
+            </div>
+            <div class="form__inner">
+               <h2 class="form-title">Welcome to lorem..!</h2>
+               <form action="">
+                  <div class="nav-tabs">
+                     <a href="#" data-tab="1" class="nav-tab active-nav">Login</a>
+                     <a href="#" data-tab="2" class="nav-tab">Register</a>
+                  </div>
+                  <p class="form-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="content-tabs">
+                     <div data-tab-content="1" class="tab-panel login active-panel">
+                        <div class="input__gr1">
+                           <label class="label">User name</label>
+                           <input class="input" type="User" placeholder="Enter your User name">
+                        </div>
+                        <div class="input__gr1 last">
+                           <label class="label">Password</label>
+                           <input class="input" type="Password" placeholder="Enter your Password">
+                           <span class="eye" onclick="myFunction()">
+                           <i id="hide1" class="fas fa-eye"></i>
+                           <i id="hide2" class="fas fa-eye-slash"></i>
+                           </span>
+                        </div>
+                        <div class="checkbox">
+                           <span class="checkbox__container">
+                              <input type="checkbox" class="checkbox__item">
+                              <p class="checkbox__text">Remember me</p>
+                           </span>
+                           <a class="forgot">Forgot Password ?</a>
+                        </div>
+                        <div class="button">
+                        <button class="btn" onclick="loggining()">Login</button>
+                        </div>
+                        </div>
+                     <div data-tab-content="2" class="tab-panel register">
+                        <div class="input__gr1 reg-gr1">
+                           <label class="label">Email Address</label>
+                           <input class="input" type="Email" placeholder="Enter your Email Address">
+                        </div>
+                        <div class="input__gr1 reg-gr1">
+                           <label class="label">User name</label>
+                           <input class="input" type="User" placeholder="Enter your User name">
+                        </div>
+                        <div class="input__gr1 reg-gr1 last">
+                           <label class="label">Password</label>
+                           <input class="input" type="Password" placeholder="Enter your Password">
+                           <span class="eye" onclick="myFunction()">
+                           <i id="hide1" class="fas fa-eye"></i>
+                           <i id="hide2" class="fas fa-eye-slash"></i>
+                           </span>
+                        </div>
+                        <div class="button reg-button">
+                           <button class="btn" onclick="register">Register</button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <button class="switch" onclick="darkMode()" onclick="image()">switch</button>
+   <div class="img2"><img src="img/img2.jpg"></div>
+   <div class="modal">
+   <div class="modal-window">
+   <h1>Successfully authorized</h1>
+   <button class="btn-close" onclick="logexit()">X</button>
+   </div>
+   <div class="overlay"></div>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>
